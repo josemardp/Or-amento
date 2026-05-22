@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Orçamentos: Segurança Pública (SSP) e Sistema Prisional (SAP)</title>
+    <!-- Carregar Folha de Estilos -->
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Carregar Chart.js via CDN seguro -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container fade-in">
+        <!-- Cabeçalho Principal -->
+        <header>
+            <div class="header-title-container">
+                <h1>Orçamento da Segurança Pública e Sistema Prisional</h1>
+                <p>Consolidação fiscal dos gastos executados pelas UFs (SICONFI/Tesouro Nacional, 2015–2024)</p>
+            </div>
+            
+            <!-- Alternador de Tema -->
+            <div class="theme-switch-container">
+                <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-secondary);">TEMA CLARO</span>
+                <label class="theme-switch">
+                    <input type="checkbox" id="theme-toggle">
+                    <span class="slider">
+                        <span class="slider-icons">
+                            <span>🌙</span>
+                            <span>☀️</span>
+                        </span>
+                    </span>
+                </label>
+            </div>
+        </header>
+
+        <!-- Navegação de Abas Principal (Estilo Premium Glassmorphic) -->
+        <div class="main-tabs-container">
+            <button class="main-tab-btn active" id="btn-tab-orcamento" data-tab="orcamento">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="tab-btn-icon">
+                    <path d="M18.375 2.25c-1.035 0-1.875.84-1.875 1.875v15.75c0 1.035.84 1.875 1.875 1.875h.75c1.035 0 1.875-.84 1.875-1.875V4.125c0-1.036-.84-1.875-1.875-1.875h-.75zM9.75 8.625c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-.75a1.875 1.875 0 01-1.875-1.875V8.625zM3 13.125c0-1.036.84-1.875 1.875-1.875h.75c1.036 0 1.875.84 1.875 1.875v6.75c0 1.035-.84 1.875-1.875 1.875h-.75A1.875 1.875 0 013 19.875v-6.75z" />
+                </svg>
+                <span>Orçamento SSP & SAP</span>
+            </button>
+            <button class="main-tab-btn" id="btn-tab-salarios" data-tab="salarios">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="tab-btn-icon">
+                    <path d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" />
+                    <path fill-rule="evenodd" d="M1.5 4.875C1.5 3.839 2.34 3 3.375 3h17.25c1.035 0 1.875.84 1.875 1.875v14.25c0 1.036-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 19.125V4.875zM21 9.75a3 3 0 00-3-3h-1.5v9H18a3 3 0 003-3v-3zM6 6.75A3 3 0 003 9.75v3A3 3 0 006 15.75h1.5v-9H6zM9 6.75v9h6v-9H9z" clip-rule="evenodd" />
+                </svg>
+                <span>Comparativo de Salários</span>
+            </button>
+        </div>
+
+        <!-- ABA 1: ORÇAMENTO -->
+        <div id="content-orcamento" class="tab-content active">
+            <!-- Painel de Filtros e Controles -->
+            <section class="card filters-panel">
+                <div class="filter-group">
+                    <label for="select-state">Estado (UF) em Destaque</label>
+                    <select id="select-state">
+                        <!-- Preenchido dinamicamente via JS -->
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="select-year">Exercício Financeiro (Ano)</label>
+                    <select id="select-year">
+                        <!-- Preenchido dinamicamente via JS -->
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="select-gestao">Modelo de Gestão Prisional</label>
+                    <select id="select-gestao">
+                        <option value="todos">Todos os Modelos</option>
+                        <option value="separada">SAP Separada (Custódia fora da SSP)</option>
+                        <option value="integrada">SSP Integrada (Tudo na SSP)</option>
+                    </select>
+                </div>
+                <div class="filter-group adjustment-filter" style="min-width: 500px; flex: 1.5;">
+                    <label>Ajuste e Normalização (Comparação Simétrica)</label>
+                    <div class="toggle-tabs" id="mode-tabs">
+                        <button class="tab-btn active" data-mode="oficial" title="Gastos brutos declarados na Função 06/Subfunção 421">Oficial</button>
+                        <button class="tab-btn" data-mode="ativos" title="Subtrai inativos militares de UFs com contabilidade integrada (ex: MG)">Apenas Ativos</button>
+                        <button class="tab-btn" data-mode="total" title="Soma inativos militares de UFs com contabilidade separada (ex: SP)">Total (+Inativos)</button>
+                        <button class="tab-btn" data-mode="equiparado" title="Denominador Comum: Consolida SSP + SAP + Inativos Militares + DETRAN + Casa Militar">Equiparado (Fórmula Equânime)</button>
+                    </div>
+                </div>
+                <div class="filter-group search-filter">
+                    <label for="input-search">Buscar Estado</label>
+                    <input type="text" id="input-search" placeholder="Digite a sigla do estado (ex: SP)..." maxlength="2">
+                </div>
+            </section>
+
+            <!-- Grade de Métricas Rápidas -->
+            <section class="metrics-grid">
+                <!-- SSP Card -->
+                <div class="card metric-card ssp">
+                    <span class="metric-label">Apenas Segurança Pública (SSP)</span>
+                    <span class="metric-value" id="metric-ssp-val">-</span>
+                    <span class="metric-desc">Do orçamento total liquidado (Função 06)</span>
+                </div>
+                <!-- SAP Card -->
+                <div class="card metric-card sap">
+                    <span class="metric-label">Apenas Sistema Prisional (SAP)</span>
+                    <span class="metric-value" id="metric-sap-val">-</span>
+                    <span class="metric-desc">Alocado fora da Segurança Pública (Subfunção 421)</span>
+                </div>
+                <!-- Combined Card -->
+                <div class="card metric-card comb">
+                    <span class="metric-label">Total Consolidado (SSP + SAP)</span>
+                    <span class="metric-value" id="metric-comb-val">-</span>
+                    <span class="metric-desc">Investimento total em proteção e custódia</span>
+                </div>
+            </section>
+
+            <!-- Descrição Dinâmica do Estado -->
+            <section class="card desc-card">
+                <p id="metric-desc">
+                    Selecione um estado e um ano nos filtros acima para visualizar a análise detalhada.
+                </p>
+            </section>
+
+            <!-- Grade de Gráficos Customizados -->
+            <section class="charts-grid-custom">
+                <div class="charts-row-top">
+                    <!-- Gráfico 1: Histórico do Estado -->
+                    <div class="card chart-card-60">
+                        <h3 class="card-title" id="trend-chart-title">Evolução do Orçamento (%) - UF</h3>
+                        <div class="chart-container">
+                            <canvas id="chart-trend"></canvas>
+                        </div>
+                    </div>
+                    <!-- NOVO Gráfico 2: Distribuição por Corporação -->
+                    <div class="card chart-card-40">
+                        <h3 class="card-title" id="breakdown-chart-title">Gastos por Corporação (Proxy)</h3>
+                        <div class="chart-container">
+                            <canvas id="chart-breakdown"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <!-- Gráfico 3: Comparação Federativa -->
+                <div class="card chart-card-full">
+                    <h3 class="card-title" id="compare-chart-title">Comparação de Orçamento Combinado (%) - Todos os Estados</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-compare"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Painel Informativo sobre a Metodologia -->
+            <section class="info-alert">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm8.706-1.442c1.146-.573 2.443.263 2.443 1.537v3.75a1.5 1.5 0 001.5 1.5h.375a.75.75 0 010 1.5h-1.125a1.5 1.5 0 01-1.5-1.5v-3.75a.75.75 0 00-.75-.75h-.375a.75.75 0 010-1.5h1.125zM12 7.5a1 1 0 100-2 1 1 0 000 2z" clip-rule="evenodd" />
+                </svg>
+                <div>
+                    <h4>Nota Metodológica: Gestão de Prisões e Equiparação Orçamentária</h4>
+                    <p style="font-size: 0.85rem; line-height: 1.5; margin-bottom: 0.5rem;">
+                        <strong>Modelos Prisionais:</strong> Estados com <em>SAP Separada</em> (ex: SP) têm a subfunção 421 (Custódia) somada no "Total Consolidado". Estados com <em>SSP Integrada</em> (ex: MG) já possuem os gastos de custódia embutidos na Função 06.
+                    </p>
+                    <p style="font-size: 0.85rem; line-height: 1.5;">
+                        <strong>Gastos por Corporação:</strong> Calculados via proxy com base no desdobramento de subfunções declaradas no SICONFI: 
+                        • <strong>Polícia Penal:</strong> 100% de Custódia (SAP). Para estados integrados, estimado em 18% do orçamento.
+                        • <strong>Polícia Militar + Bombeiros:</strong> 65% de Policiamento + 90% de Defesa Civil + 50% de Admin + 50% de Inteligência + 40% de Demais. (Ajustes de inativos e Casa Militar são somados aqui).
+                        • <strong>Polícia Civil:</strong> 30% de Policiamento + 5% de Defesa Civil + 40% de Admin + 40% de Inteligência + 40% de Demais. (Ajustes de DETRAN são somados aqui).
+                        • <strong>Polícia Científica:</strong> 5% de Policiamento + 5% de Defesa Civil + 10% de Admin + 10% de Inteligência + 20% de Demais.
+                    </p>
+                </div>
+            </section>
+
+            <!-- Tabela Completa Lado a Lado -->
+            <section class="card table-card">
+                <h3 class="card-title">Tabela Comparativa Lado a Lado</h3>
+                <div class="table-controls">
+                    <span class="cell-muted" style="font-size: 0.85rem;">
+                        * Clique em qualquer linha para destacar o estado nos gráficos e métricas acima.
+                    </span>
+                </div>
+                
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50px;">UF</th>
+                                <th style="width: 150px;">Modelo de Gestão</th>
+                                <th class="cell-right">SSP (R$ Mi)</th>
+                                <th class="cell-right">SAP (R$ Mi)</th>
+                                <th class="cell-right" style="color: var(--text-primary);">SSP + SAP (R$ Mi)</th>
+                                <th class="cell-right">Orçamento Total Estado (R$ Mi)</th>
+                                <th class="cell-right">SSP (%)</th>
+                                <th class="cell-right">SAP (%)</th>
+                                <th class="cell-right" style="color: var(--text-primary);">SSP + SAP (%)</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                            <!-- Preenchido dinamicamente via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <!-- ABA 2: SALÁRIOS -->
+        <div id="content-salarios" class="tab-content">
+            <!-- Painel de Filtros e Controles -->
+            <section class="card filters-panel">
+                <div class="filter-group">
+                    <label for="select-salary-cargo">Cargo / Função Policial</label>
+                    <select id="select-salary-cargo">
+                        <option value="pm_soldado">Soldado - Polícia Militar</option>
+                        <option value="pm_sargento">Sargento - Polícia Militar</option>
+                        <option value="pm_coronel">Coronel - Polícia Militar</option>
+                        <option value="pc_agente">Investigador / Agente - Polícia Civil</option>
+                        <option value="pc_escrivao">Escrivão - Polícia Civil</option>
+                        <option value="pc_delegado">Delegado - Polícia Civil</option>
+                        <option value="perito">Perito Criminal - Polícia Científica</option>
+                        <option value="penal">Policial Penal - Polícia Penal</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="select-salary-state">Estado (UF) em Foco</label>
+                    <select id="select-salary-state">
+                        <!-- Preenchido dinamicamente via JS -->
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="select-salary-year">Ano de Referência</label>
+                    <select id="select-salary-year">
+                        <!-- Preenchido dinamicamente via JS -->
+                    </select>
+                </div>
+                <div class="filter-group search-filter">
+                    <label for="input-salary-search">Buscar Estado</label>
+                    <input type="text" id="input-salary-search" placeholder="Digite a sigla do estado (ex: SP)..." maxlength="2">
+                </div>
+            </section>
+
+            <!-- Grade de Métricas Rápidas de Salários -->
+            <section class="metrics-grid">
+                <!-- Salário Atual -->
+                <div class="card metric-card ssp">
+                    <span class="metric-label">Salário Bruto Médio Mensal</span>
+                    <span class="metric-value" id="salary-metric-val">-</span>
+                    <span class="metric-desc" id="salary-metric-state-lbl">UF selecionada no ano</span>
+                </div>
+                <!-- Posição no Ranking -->
+                <div class="card metric-card comb">
+                    <span class="metric-label">Ranking Nacional do Cargo</span>
+                    <span class="metric-value" id="salary-metric-rank">-</span>
+                    <span class="metric-desc" id="salary-metric-rank-lbl">Entre os 27 estados do país</span>
+                </div>
+                <!-- Média Nacional -->
+                <div class="card metric-card sap">
+                    <span class="metric-label">Média Nacional do Cargo</span>
+                    <span class="metric-value" id="salary-metric-avg">-</span>
+                    <span class="metric-desc" id="salary-metric-avg-lbl">Média de todas as UFs</span>
+                </div>
+            </section>
+
+            <!-- Descrição e Destaques de Salários -->
+            <section class="card desc-card" style="background-color: rgba(139, 92, 246, 0.05); border-color: rgba(139, 92, 246, 0.15);">
+                <p id="salary-desc">
+                    Selecione um cargo, estado e ano para ver a análise salarial.
+                </p>
+            </section>
+
+            <!-- Gráficos de Salários -->
+            <section class="charts-grid">
+                <!-- Gráfico 1: Evolução Histórica do Salário -->
+                <div class="card">
+                    <h3 class="card-title" id="salary-trend-title">Evolução do Salário (2015-2024)</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-salary-trend"></canvas>
+                    </div>
+                </div>
+                <!-- Gráfico 2: Comparação de Salários por UF -->
+                <div class="card">
+                    <h3 class="card-title" id="salary-compare-title">Comparação Salarial Nacional</h3>
+                    <div class="chart-container">
+                        <canvas id="chart-salary-compare"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tabela Completa de Histórico de Salários da UF (Todos os Cargos) -->
+            <section class="card table-card">
+                <h3 class="card-title" id="salary-table-title">Histórico de Salários por Cargo - UF</h3>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ano</th>
+                                <th class="cell-right">Soldado PM</th>
+                                <th class="cell-right">Sargento PM</th>
+                                <th class="cell-right">Coronel PM</th>
+                                <th class="cell-right">Investigador PC</th>
+                                <th class="cell-right">Escrivão PC</th>
+                                <th class="cell-right">Delegado PC</th>
+                                <th class="cell-right">Perito Criminal</th>
+                                <th class="cell-right">Policial Penal</th>
+                            </tr>
+                        </thead>
+                        <tbody id="salary-table-body">
+                            <!-- Preenchido via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <!-- Tabela Comparativa de Salários (Ranking de Estados) -->
+            <section class="card table-card">
+                <h3 class="card-title" id="salary-national-table-title">Ranking Nacional de Salários - Cargo</h3>
+                <div class="table-controls">
+                    <span class="cell-muted" style="font-size: 0.85rem;">
+                        * Clique em qualquer linha para destacar o estado nos gráficos de salários e atualizar as métricas.
+                    </span>
+                </div>
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 80px;">Posição</th>
+                                <th>UF</th>
+                                <th class="cell-right">Salário Bruto (R$)</th>
+                                <th class="cell-right">Diferença em Relação à Média Nacional</th>
+                                <th class="cell-right">Diferença em Relação ao 1º Colocado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="salary-national-table-body">
+                            <!-- Preenchido via JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+
+        <!-- Rodapé -->
+        <footer>
+            <p>Fonte dos dados: API SICONFI / Tesouro Nacional - RREO (Anexo 02 - Despesas por Função/Subfunção, 6º Bimestre).</p>
+            <p style="margin-top: 0.25rem;">Relatório Resumido da Execução Orçamentária - Despesas Liquidadas Exceto Intra-Orçamentárias.</p>
+        </footer>
+    </div>
+
+    <!-- Carregar Código Lógico do Dashboard -->
+    <script src="dados.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
