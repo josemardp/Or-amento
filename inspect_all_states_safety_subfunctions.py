@@ -121,7 +121,17 @@ for key in cache.keys():
                 "Pct": (val / tot) * 100
             })
 
-df = pd.DataFrame(records)
+df_new = pd.DataFrame(records)
+if os.path.exists("all_states_safety_subfunctions.csv"):
+    try:
+        df_old = pd.read_csv("all_states_safety_subfunctions.csv", sep=";", decimal=",")
+        df_old = df_old[~df_old["Ano"].isin([2025, 2026])]
+        df = pd.concat([df_old, df_new], ignore_index=True)
+    except Exception as e:
+        print(f"Erro ao ler all_states_safety_subfunctions.csv: {e}")
+        df = df_new
+else:
+    df = df_new
 df.to_csv("all_states_safety_subfunctions.csv", index=False, sep=";", decimal=",", encoding="utf-8-sig")
 print("Análise concluída e salva em 'all_states_safety_subfunctions.csv'.")
 

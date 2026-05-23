@@ -1,6 +1,6 @@
 // Estado Global da Aplicação
 let selectedState = "SP";
-let selectedYear = 2024;
+let selectedYear = 2026;
 let searchFilter = "";
 let gestaoFilter = "todos";
 let currentCompareMode = "oficial"; // "oficial", "ativos", "total", "equiparado"
@@ -795,10 +795,13 @@ function renderSalaryMetrics() {
     let growthText = "";
     if (stateHistory.length >= 2) {
         const val2015 = stateHistory.find(d => d["Ano"] === 2015)?.[selectedSalaryCargo] || 0;
-        const val2024 = stateHistory.find(d => d["Ano"] === 2024)?.[selectedSalaryCargo] || 0;
-        if (val2015 > 0) {
-            const growth = ((val2024 - val2015) / val2015) * 100;
-            growthText = `Com um crescimento nominal acumulado de <strong>${formatBR(growth)}%</strong> nos últimos 10 anos (subindo de <strong>R$ ${formatBR(val2015, false, true)}</strong> em 2015 para <strong>R$ ${formatBR(val2024, false, true)}</strong> em 2024).`;
+        const latestRecord = stateHistory[stateHistory.length - 1];
+        const latestYear = latestRecord ? latestRecord["Ano"] : 2026;
+        const valLatest = latestRecord ? (latestRecord[selectedSalaryCargo] || 0) : 0;
+        if (val2015 > 0 && valLatest > 0) {
+            const growth = ((valLatest - val2015) / val2015) * 100;
+            const diffYears = latestYear - 2015;
+            growthText = `Com um crescimento nominal acumulado de <strong>${formatBR(growth)}%</strong> nos últimos ${diffYears} anos (subindo de <strong>R$ ${formatBR(val2015, false, true)}</strong> em 2015 para <strong>R$ ${formatBR(valLatest, false, true)}</strong> em ${latestYear}).`;
         }
     }
     

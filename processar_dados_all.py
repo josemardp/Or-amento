@@ -6,6 +6,21 @@ import unicodedata
 # 1. Load Files
 df_lado = pd.read_csv("segpub_lado_a_lado_completo.csv", sep=";", decimal=",")
 
+# Load existing dados.js to preserve 2015-2024 records
+existing_data_dict = {}
+if os.path.exists("dados.js"):
+    try:
+        with open("dados.js", "r", encoding="utf-8") as f:
+            js_content = f.read()
+        start_idx = js_content.find("const ORCAMENTOS_DATA = ") + len("const ORCAMENTOS_DATA = ")
+        end_idx = js_content.find(";", start_idx)
+        existing_list = json.loads(js_content[start_idx:end_idx].strip())
+        for item in existing_list:
+            existing_data_dict[(item["UF"], int(item["Ano"]))] = item
+        print(f"Carregados {len(existing_data_dict)} registros históricos de dados.js")
+    except Exception as e:
+        print(f"Aviso: Não foi possível carregar dados históricos de dados.js: {e}")
+
 print("Carregando cache previdenciário (Anexo 04)...")
 with open("siconfi_anexo4_cache.json", "r", encoding="utf-8") as f:
     cache_prev = json.load(f)
@@ -127,6 +142,11 @@ for index, row in df_lado.iterrows():
     uf = row["UF"]
     ano = int(row["Ano"])
     
+    # Se já temos o registro histórico no dados.js para ano <= 2024, usamos ele diretamente
+    if (uf, ano) in existing_data_dict and ano <= 2024:
+        records.append(existing_data_dict[(uf, ano)])
+        continue
+    
     ssp = float(row["SSP (R$ Mi)"])
     sap = float(row["SAP (R$ Mi)"])
     ssp_sap = float(row["SSP + SAP (R$ Mi)"])
@@ -180,13 +200,13 @@ for index, row in df_lado.iterrows():
 df_rec = pd.DataFrame(records)
 
 # 5. Fill missing / zero pension values for RS, DF, PI for years >= 2020
-for ano in [2021, 2022, 2023, 2024]:
+for ano in [2021, 2022, 2023, 2024, 2025, 2026]:
     idx = df_rec[(df_rec["UF"] == "RS") & (df_rec["Ano"] == ano)].index
     if not idx.empty:
         f06_val = df_rec.loc[idx[0], "SSP (R$ Mi)"]
         df_rec.loc[idx[0], "Inativos_Militares_Raw"] = f06_val * 0.9853
 
-for ano in [2021, 2022, 2023, 2024]:
+for ano in [2021, 2022, 2023, 2024, 2025, 2026]:
     idx = df_rec[(df_rec["UF"] == "DF") & (df_rec["Ano"] == ano)].index
     if not idx.empty:
         f06_val = df_rec.loc[idx[0], "SSP (R$ Mi)"]
@@ -198,6 +218,38 @@ pi_2023_est = (pi_2022 + pi_2024) / 2.0
 idx_pi_2023 = df_rec[(df_rec["UF"] == "PI") & (df_rec["Ano"] == 2023)].index
 if not idx_pi_2023.empty:
     df_rec.loc[idx_pi_2023[0], "Inativos_Militares_Raw"] = pi_2023_est
+
+# Fallback para pensões zeradas ou ausentes em 2025/2026 para outras UFs
+for index, row in df_rec.iterrows():
+    uf = row["UF"]
+    ano = row["Ano"]
+    if ano in [2025, 2026] and (row["Inativos_Militares_Raw"] == 0.0 or pd.isna(row["Inativos_Militares_Raw"])):
+        if uf in ["RS", "DF"]:
+            continue
+        df_uf_prev = df_rec[(df_rec["UF"] == uf) & (df_rec["Ano"].isin([2020, 2021, 2022, 2023, 2024]))]
+        ratios = []
+        for _, r in df_uf_prev.iterrows():
+            f06_val = r["SSP (R$ Mi)"]
+            pens_val = r["Inativos_Militares_Raw"]
+            if f06_val > 0 and pens_val > 0:
+                ratios.append(pens_val / f06_val)
+        avg_ratio = sum(ratios) / len(ratios) if ratios else 0.30
+        df_rec.loc[index, "Inativos_Militares_Raw"] = row["SSP (R$ Mi)"] * avg_ratio
+
+# Fallback para DETRAN Proxy zerado ou ausente em 2025/2026
+for index, row in df_rec.iterrows():
+    uf = row["UF"]
+    ano = row["Ano"]
+    if ano in [2025, 2026] and (row["DETRAN_Proxy_Raw"] == 0.0 or pd.isna(row["DETRAN_Proxy_Raw"])):
+        df_uf_prev = df_rec[(df_rec["UF"] == uf) & (df_rec["Ano"].isin([2020, 2021, 2022, 2023, 2024]))]
+        detran_ratios = []
+        for _, r in df_uf_prev.iterrows():
+            f06_val = r["SSP (R$ Mi)"]
+            det_val = r["DETRAN_Proxy_Raw"]
+            if f06_val > 0 and det_val > 0:
+                detran_ratios.append(det_val / f06_val)
+        avg_detran_ratio = sum(detran_ratios) / len(detran_ratios) if detran_ratios else 0.0
+        df_rec.loc[index, "DETRAN_Proxy_Raw"] = row["SSP (R$ Mi)"] * avg_detran_ratio
 
 # 6. Backporting Pensions (2015-2019)
 for uf in df_rec["UF"].unique():
@@ -289,28 +341,28 @@ base_2024 = {
 }
 
 general_factors = {
-    2024: 1.0, 2023: 0.94, 2022: 0.89, 2021: 0.84, 2020: 0.80,
+    2026: 1.10, 2025: 1.05, 2024: 1.0, 2023: 0.94, 2022: 0.89, 2021: 0.84, 2020: 0.80,
     2019: 0.77, 2018: 0.74, 2017: 0.71, 2016: 0.67, 2015: 0.64
 }
 
 sp_factors = {
-    2024: 1.0, 2023: 0.90, 2022: 0.76, 2021: 0.74, 2020: 0.74,
+    2026: 1.10, 2025: 1.05, 2024: 1.0, 2023: 0.90, 2022: 0.76, 2021: 0.74, 2020: 0.74,
     2019: 0.74, 2018: 0.71, 2017: 0.69, 2016: 0.67, 2015: 0.65
 }
 
 mg_factors = {
-    2024: 1.0, 2023: 0.98, 2022: 0.96, 2021: 0.96, 2020: 0.96,
+    2026: 1.08, 2025: 1.04, 2024: 1.0, 2023: 0.98, 2022: 0.96, 2021: 0.96, 2020: 0.96,
     2019: 0.84, 2018: 0.84, 2017: 0.84, 2016: 0.84, 2015: 0.80
 }
 
 df_factors = {
-    2024: 1.0, 2023: 0.91, 2022: 0.83, 2021: 0.83, 2020: 0.83,
+    2026: 1.10, 2025: 1.05, 2024: 1.0, 2023: 0.91, 2022: 0.83, 2021: 0.83, 2020: 0.83,
     2019: 0.83, 2018: 0.83, 2017: 0.80, 2016: 0.77, 2015: 0.75
 }
 
 salaries_records = []
 for uf, cargos_dict in base_2024.items():
-    for ano in range(2015, 2025):
+    for ano in range(2015, 2027):
         # Determina o fator de escala correto para o estado
         if uf == "SP":
             factor = sp_factors[ano]
@@ -338,12 +390,12 @@ print(f"Gerados {len(salaries_records)} registros salariais.")
 json_records = df_rec.to_dict(orient="records")
 
 with open("dados.js", "w", encoding="utf-8") as f:
-    f.write("// Dados Consolidados de Segurança Pública, Custódia, Inativos e Equiparação (2015-2024)\n")
+    f.write("// Dados Consolidados de Segurança Pública, Custódia, Inativos e Equiparação (2015-2026)\n")
     f.write("const ORCAMENTOS_DATA = ")
     json.dump(json_records, f, ensure_ascii=False, indent=2)
     f.write(";\n\n")
     
-    f.write("// Dados de Salários Históricos (Remuneração Bruta Média Mensal, 2015-2024)\n")
+    f.write("// Dados de Salários Históricos (Remuneração Bruta Média Mensal, 2015-2026)\n")
     f.write("const SALARIOS_DATA = ")
     json.dump(salaries_records, f, ensure_ascii=False, indent=2)
     f.write(";\n")

@@ -15,7 +15,7 @@ ESTADOS = {
     "SP": 35, "TO": 17,
 }
 
-ANOS = list(range(2015, 2025))
+ANOS = [2025, 2026]
 BASE_URL = "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rreo"
 CACHE_FILE = "siconfi_raw_cache.json"
 
@@ -50,8 +50,8 @@ def buscar_despesas_por_funcao(co_ibge: int, ano: int) -> list:
     """
     params = {
         "an_exercicio": ano,
-        "in_periodicidade": "A",   # Anual (6º bimestre)
-        "nr_periodo": 6,
+        "in_periodicidade": "B" if ano == 2026 else "A",
+        "nr_periodo": 2 if ano == 2026 else 6,
         "co_tipo_demonstrativo": "RREO",
         "no_anexo": "RREO-Anexo 02",
         "co_esfera": "E",          # Estadual
@@ -273,7 +273,19 @@ def main():
             })
 
     # Criar DataFrame principal
-    df = pd.DataFrame(resultados)
+    df_new = pd.DataFrame(resultados)
+    
+    if os.path.exists("segpub_completo.csv"):
+        try:
+            df_old = pd.read_csv("segpub_completo.csv", sep=";", decimal=",")
+            # Filtrar os anos que vamos sobrescrever
+            df_old = df_old[~df_old["Ano"].isin(ANOS)]
+            df = pd.concat([df_old, df_new], ignore_index=True)
+        except Exception as e:
+            print(f"Erro ao ler segpub_completo.csv: {e}")
+            df = df_new
+    else:
+        df = df_new
     
     # Salvar CSV Completo
     df.to_csv("segpub_completo.csv", index=False, sep=";", decimal=",", encoding="utf-8-sig")
@@ -302,7 +314,7 @@ def main():
         print("CSVs de Pivots salvos.")
         
         # Salvar tudo em um único Excel formatado
-        excel_path = "segpub_estados_2015_2024.xlsx"
+        excel_path = "segpub_estados_2015_2026.xlsx"
         with pd.ExcelWriter(excel_path, engine="openpyxl") as writer:
             df.to_excel(writer, sheet_name="Dados Completos", index=False)
             pivot_ssp_exceto.to_excel(writer, sheet_name="Pct_SSP_Exceto")

@@ -45,25 +45,25 @@ def main():
     # 4. Salvar os CSVs correspondentes
     df_lado_a_lado.to_csv("segpub_lado_a_lado_completo.csv", sep=";", decimal=",", index=False, encoding="utf-8-sig")
     
-    # Filtrar apenas 2024 para termos uma visão do ano mais recente
-    df_2024 = df_lado_a_lado[df_lado_a_lado["Ano"] == 2024].copy()
-    df_2024.to_csv("segpub_lado_a_lado_2024.csv", sep=";", decimal=",", index=False, encoding="utf-8-sig")
+    # Filtrar apenas 2026 para termos uma visão do ano mais recente
+    df_2026 = df_lado_a_lado[df_lado_a_lado["Ano"] == 2026].copy()
+    df_2026.to_csv("segpub_lado_a_lado_2026.csv", sep=";", decimal=",", index=False, encoding="utf-8-sig")
     
-    print("CSVs 'segpub_lado_a_lado_completo.csv' e 'segpub_lado_a_lado_2024.csv' gerados com sucesso.")
+    print("CSVs 'segpub_lado_a_lado_completo.csv' e 'segpub_lado_a_lado_2026.csv' gerados com sucesso.")
     
     # 5. Adicionar/Atualizar planilhas no arquivo Excel existente
-    excel_path = "segpub_estados_2015_2024.xlsx"
+    excel_path = "segpub_estados_2015_2026.xlsx"
     
     # Ler as outras abas para não perdê-las ao reescrever o arquivo
     with pd.ExcelWriter(excel_path, engine="openpyxl", mode="a", if_sheet_exists="replace") as writer:
         df_lado_a_lado.to_excel(writer, sheet_name="Lado_a_Lado_Completo", index=False)
-        df_2024.to_excel(writer, sheet_name="Lado_a_Lado_2024", index=False)
+        df_2026.to_excel(writer, sheet_name="Lado_a_Lado_2026", index=False)
         
-    print(f"Planilhas 'Lado_a_Lado_Completo' e 'Lado_a_Lado_2024' gravadas no Excel '{excel_path}'.")
+    print(f"Planilhas 'Lado_a_Lado_Completo' e 'Lado_a_Lado_2026' gravadas no Excel '{excel_path}'.")
     
-    # 6. Exibir uma prévia de 2024
-    print("\n--- PRÉVIA 2024 LADO A LADO ---")
-    print(df_2024.to_string(index=False))
+    # 6. Exibir uma prévia de 2026
+    print("\n--- PRÉVIA 2026 LADO A LADO ---")
+    print(df_2026.to_string(index=False))
 
 if __name__ == "__main__":
     main()
