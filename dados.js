@@ -18,8 +18,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.04,
     "Sub_Admin_Geral (R$ Mi)": 66.21,
     "Sub_Demais (R$ Mi)": 39.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 217.93,
+    "DETRAN_Proxy (R$ Mi)": 11.33
   },
   {
     "UF": "AC",
@@ -39,8 +39,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.01,
     "Sub_Admin_Geral (R$ Mi)": 72.23,
     "Sub_Demais (R$ Mi)": 51.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 223.77,
+    "DETRAN_Proxy (R$ Mi)": 11.63
   },
   {
     "UF": "AC",
@@ -60,8 +60,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 89.81,
     "Sub_Demais (R$ Mi)": 68.73,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 261.02,
+    "DETRAN_Proxy (R$ Mi)": 13.57
   },
   {
     "UF": "AC",
@@ -81,8 +81,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 113.4,
     "Sub_Demais (R$ Mi)": 62.29,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 298.87,
+    "DETRAN_Proxy (R$ Mi)": 15.53
   },
   {
     "UF": "AC",
@@ -102,8 +102,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 139.92,
     "Sub_Demais (R$ Mi)": 52.18,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 340.29,
+    "DETRAN_Proxy (R$ Mi)": 17.69
   },
   {
     "UF": "AC",
@@ -123,8 +123,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 480.77,
     "Sub_Demais (R$ Mi)": 0.47,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 272.79,
+    "DETRAN_Proxy (R$ Mi)": 38.68
   },
   {
     "UF": "AC",
@@ -144,8 +144,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 7.45,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 284.84,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 308.78,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "AC",
@@ -165,8 +165,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 280.39,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 239.41,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 381.52,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "AC",
@@ -186,8 +186,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 297.07,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 259.88,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 424.49,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "AC",
@@ -207,8 +207,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 318.25,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 284.07,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 466.9,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "AC",
@@ -249,8 +249,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 4.07,
     "Sub_Admin_Geral (R$ Mi)": 259.8,
     "Sub_Demais (R$ Mi)": 16.83,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 671.23,
+    "DETRAN_Proxy (R$ Mi)": 20.21
   },
   {
     "UF": "AL",
@@ -270,8 +270,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.81,
     "Sub_Admin_Geral (R$ Mi)": 257.74,
     "Sub_Demais (R$ Mi)": 8.99,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 661.5,
+    "DETRAN_Proxy (R$ Mi)": 19.92
   },
   {
     "UF": "AL",
@@ -291,8 +291,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 9.04,
     "Sub_Admin_Geral (R$ Mi)": 280.38,
     "Sub_Demais (R$ Mi)": 9.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 718.46,
+    "DETRAN_Proxy (R$ Mi)": 21.64
   },
   {
     "UF": "AL",
@@ -312,8 +312,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.01,
     "Sub_Admin_Geral (R$ Mi)": 351.23,
     "Sub_Demais (R$ Mi)": 8.1,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 738.52,
+    "DETRAN_Proxy (R$ Mi)": 22.24
   },
   {
     "UF": "AL",
@@ -333,8 +333,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.61,
     "Sub_Admin_Geral (R$ Mi)": 1074.37,
     "Sub_Demais (R$ Mi)": 4.91,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 714.95,
+    "DETRAN_Proxy (R$ Mi)": 21.53
   },
   {
     "UF": "AL",
@@ -354,8 +354,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.05,
     "Sub_Admin_Geral (R$ Mi)": 1260.6,
     "Sub_Demais (R$ Mi)": 7.55,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 782.57,
+    "DETRAN_Proxy (R$ Mi)": 25.33
   },
   {
     "UF": "AL",
@@ -375,8 +375,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.01,
     "Sub_Admin_Geral (R$ Mi)": 1255.8,
     "Sub_Demais (R$ Mi)": 9.57,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 895.3,
+    "DETRAN_Proxy (R$ Mi)": 24.12
   },
   {
     "UF": "AL",
@@ -396,8 +396,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.07,
     "Sub_Admin_Geral (R$ Mi)": 1460.95,
     "Sub_Demais (R$ Mi)": 61.53,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1034.76,
+    "DETRAN_Proxy (R$ Mi)": 32.47
   },
   {
     "UF": "AL",
@@ -417,8 +417,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.1,
     "Sub_Admin_Geral (R$ Mi)": 1671.86,
     "Sub_Demais (R$ Mi)": 47.15,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1242.73,
+    "DETRAN_Proxy (R$ Mi)": 38.65
   },
   {
     "UF": "AL",
@@ -438,8 +438,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.1,
     "Sub_Admin_Geral (R$ Mi)": 1920.86,
     "Sub_Demais (R$ Mi)": 15.89,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1094.06,
+    "DETRAN_Proxy (R$ Mi)": 49.37
   },
   {
     "UF": "AL",
@@ -480,8 +480,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.3,
     "Sub_Admin_Geral (R$ Mi)": 1143.96,
     "Sub_Demais (R$ Mi)": 64.87,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 349.7,
+    "DETRAN_Proxy (R$ Mi)": 2.75
   },
   {
     "UF": "AM",
@@ -501,8 +501,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.31,
     "Sub_Admin_Geral (R$ Mi)": 1211.37,
     "Sub_Demais (R$ Mi)": 49.92,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 359.62,
+    "DETRAN_Proxy (R$ Mi)": 2.82
   },
   {
     "UF": "AM",
@@ -522,8 +522,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.34,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 1375.5,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 364.49,
+    "DETRAN_Proxy (R$ Mi)": 2.86
   },
   {
     "UF": "AM",
@@ -543,8 +543,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.17,
     "Sub_Admin_Geral (R$ Mi)": 1665.51,
     "Sub_Demais (R$ Mi)": 26.19,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 442.94,
+    "DETRAN_Proxy (R$ Mi)": 3.48
   },
   {
     "UF": "AM",
@@ -564,8 +564,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.24,
     "Sub_Admin_Geral (R$ Mi)": 1951.4,
     "Sub_Demais (R$ Mi)": 33.94,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 519.43,
+    "DETRAN_Proxy (R$ Mi)": 4.08
   },
   {
     "UF": "AM",
@@ -585,8 +585,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.24,
     "Sub_Admin_Geral (R$ Mi)": 2014.59,
     "Sub_Demais (R$ Mi)": 43.52,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 516.38,
+    "DETRAN_Proxy (R$ Mi)": 4.69
   },
   {
     "UF": "AM",
@@ -606,8 +606,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.1,
     "Sub_Admin_Geral (R$ Mi)": 2197.21,
     "Sub_Demais (R$ Mi)": 61.47,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 589.35,
+    "DETRAN_Proxy (R$ Mi)": 4.52
   },
   {
     "UF": "AM",
@@ -627,8 +627,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.31,
     "Sub_Admin_Geral (R$ Mi)": 2482.18,
     "Sub_Demais (R$ Mi)": 94.35,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 692.42,
+    "DETRAN_Proxy (R$ Mi)": 4.76
   },
   {
     "UF": "AM",
@@ -648,8 +648,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.16,
     "Sub_Admin_Geral (R$ Mi)": 2474.67,
     "Sub_Demais (R$ Mi)": 131.77,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 683.19,
+    "DETRAN_Proxy (R$ Mi)": 4.6
   },
   {
     "UF": "AM",
@@ -669,8 +669,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 2669.55,
     "Sub_Demais (R$ Mi)": 234.3,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 844.33,
+    "DETRAN_Proxy (R$ Mi)": 4.52
   },
   {
     "UF": "AM",
@@ -732,8 +732,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.09,
     "Sub_Admin_Geral (R$ Mi)": 439.67,
     "Sub_Demais (R$ Mi)": 0.73,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6.76,
+    "DETRAN_Proxy (R$ Mi)": 17.13
   },
   {
     "UF": "AP",
@@ -753,8 +753,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.12,
     "Sub_Admin_Geral (R$ Mi)": 395.74,
     "Sub_Demais (R$ Mi)": 0.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6.1,
+    "DETRAN_Proxy (R$ Mi)": 15.45
   },
   {
     "UF": "AP",
@@ -774,8 +774,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.13,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 431.16,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6.72,
+    "DETRAN_Proxy (R$ Mi)": 17.03
   },
   {
     "UF": "AP",
@@ -795,8 +795,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.11,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 440.73,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6.77,
+    "DETRAN_Proxy (R$ Mi)": 17.15
   },
   {
     "UF": "AP",
@@ -816,8 +816,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.05,
     "Sub_Admin_Geral (R$ Mi)": 522.52,
     "Sub_Demais (R$ Mi)": 0.01,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 8.29,
+    "DETRAN_Proxy (R$ Mi)": 21.0
   },
   {
     "UF": "AP",
@@ -837,8 +837,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.04,
     "Sub_Admin_Geral (R$ Mi)": 688.44,
     "Sub_Demais (R$ Mi)": 0.04,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 32.54,
+    "DETRAN_Proxy (R$ Mi)": 22.43
   },
   {
     "UF": "AP",
@@ -858,8 +858,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.04,
     "Sub_Admin_Geral (R$ Mi)": 695.44,
     "Sub_Demais (R$ Mi)": 0.06,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 0.0,
+    "DETRAN_Proxy (R$ Mi)": 25.87
   },
   {
     "UF": "AP",
@@ -879,8 +879,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.06,
     "Sub_Admin_Geral (R$ Mi)": 821.75,
     "Sub_Demais (R$ Mi)": 0.17,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 0.0,
+    "DETRAN_Proxy (R$ Mi)": 41.44
   },
   {
     "UF": "AP",
@@ -900,8 +900,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.19,
     "Sub_Admin_Geral (R$ Mi)": 890.25,
     "Sub_Demais (R$ Mi)": 0.08,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 148.09,
+    "DETRAN_Proxy (R$ Mi)": 10.7
   },
   {
     "UF": "AP",
@@ -921,8 +921,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.62,
     "Sub_Admin_Geral (R$ Mi)": 1007.68,
     "Sub_Demais (R$ Mi)": 0.25,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 708.93,
+    "DETRAN_Proxy (R$ Mi)": 18.61
   },
   {
     "UF": "AP",
@@ -963,8 +963,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 14.96,
     "Sub_Admin_Geral (R$ Mi)": 254.44,
     "Sub_Demais (R$ Mi)": 120.66,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1994.06,
+    "DETRAN_Proxy (R$ Mi)": 62.24
   },
   {
     "UF": "BA",
@@ -984,8 +984,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 20.24,
     "Sub_Admin_Geral (R$ Mi)": 3507.27,
     "Sub_Demais (R$ Mi)": 135.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2211.15,
+    "DETRAN_Proxy (R$ Mi)": 69.02
   },
   {
     "UF": "BA",
@@ -1005,8 +1005,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 10.63,
     "Sub_Admin_Geral (R$ Mi)": 3602.77,
     "Sub_Demais (R$ Mi)": 128.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2181.53,
+    "DETRAN_Proxy (R$ Mi)": 68.09
   },
   {
     "UF": "BA",
@@ -1026,8 +1026,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 9.02,
     "Sub_Admin_Geral (R$ Mi)": 3824.92,
     "Sub_Demais (R$ Mi)": 130.86,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2306.28,
+    "DETRAN_Proxy (R$ Mi)": 71.99
   },
   {
     "UF": "BA",
@@ -1047,8 +1047,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 14.19,
     "Sub_Admin_Geral (R$ Mi)": 3941.42,
     "Sub_Demais (R$ Mi)": 235.08,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2421.32,
+    "DETRAN_Proxy (R$ Mi)": 75.58
   },
   {
     "UF": "BA",
@@ -1068,8 +1068,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 9.37,
     "Sub_Admin_Geral (R$ Mi)": 3818.36,
     "Sub_Demais (R$ Mi)": 229.52,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2189.82,
+    "DETRAN_Proxy (R$ Mi)": 79.38
   },
   {
     "UF": "BA",
@@ -1089,8 +1089,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 15.7,
     "Sub_Admin_Geral (R$ Mi)": 3720.64,
     "Sub_Demais (R$ Mi)": 235.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2398.83,
+    "DETRAN_Proxy (R$ Mi)": 79.18
   },
   {
     "UF": "BA",
@@ -1110,8 +1110,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 11.43,
     "Sub_Admin_Geral (R$ Mi)": 4194.23,
     "Sub_Demais (R$ Mi)": 246.43,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2820.75,
+    "DETRAN_Proxy (R$ Mi)": 69.7
   },
   {
     "UF": "BA",
@@ -1131,8 +1131,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 21.5,
     "Sub_Admin_Geral (R$ Mi)": 4727.08,
     "Sub_Demais (R$ Mi)": 249.7,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3078.57,
+    "DETRAN_Proxy (R$ Mi)": 84.38
   },
   {
     "UF": "BA",
@@ -1152,8 +1152,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 43.4,
     "Sub_Admin_Geral (R$ Mi)": 5194.75,
     "Sub_Demais (R$ Mi)": 349.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3293.64,
+    "DETRAN_Proxy (R$ Mi)": 92.97
   },
   {
     "UF": "BA",
@@ -1194,8 +1194,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 3.87,
     "Sub_Admin_Geral (R$ Mi)": 1400.14,
     "Sub_Demais (R$ Mi)": 48.82,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 436.41,
+    "DETRAN_Proxy (R$ Mi)": 58.79
   },
   {
     "UF": "CE",
@@ -1215,8 +1215,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1724.96,
     "Sub_Demais (R$ Mi)": 35.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 467.57,
+    "DETRAN_Proxy (R$ Mi)": 62.99
   },
   {
     "UF": "CE",
@@ -1236,8 +1236,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1816.8,
     "Sub_Demais (R$ Mi)": 50.94,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 509.86,
+    "DETRAN_Proxy (R$ Mi)": 68.69
   },
   {
     "UF": "CE",
@@ -1257,8 +1257,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 2270.81,
     "Sub_Demais (R$ Mi)": 65.42,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 630.54,
+    "DETRAN_Proxy (R$ Mi)": 84.95
   },
   {
     "UF": "CE",
@@ -1278,8 +1278,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 44.98,
     "Sub_Admin_Geral (R$ Mi)": 2369.66,
     "Sub_Demais (R$ Mi)": 42.4,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 671.7,
+    "DETRAN_Proxy (R$ Mi)": 90.49
   },
   {
     "UF": "CE",
@@ -1299,8 +1299,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 46.96,
     "Sub_Admin_Geral (R$ Mi)": 2752.0,
     "Sub_Demais (R$ Mi)": 35.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 760.34,
+    "DETRAN_Proxy (R$ Mi)": 97.99
   },
   {
     "UF": "CE",
@@ -1320,8 +1320,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 76.68,
     "Sub_Admin_Geral (R$ Mi)": 2914.69,
     "Sub_Demais (R$ Mi)": 42.32,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 822.77,
+    "DETRAN_Proxy (R$ Mi)": 104.83
   },
   {
     "UF": "CE",
@@ -1341,8 +1341,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 106.39,
     "Sub_Admin_Geral (R$ Mi)": 3626.02,
     "Sub_Demais (R$ Mi)": 66.06,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 948.29,
+    "DETRAN_Proxy (R$ Mi)": 141.56
   },
   {
     "UF": "CE",
@@ -1362,8 +1362,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 75.34,
     "Sub_Admin_Geral (R$ Mi)": 4047.41,
     "Sub_Demais (R$ Mi)": 61.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1044.22,
+    "DETRAN_Proxy (R$ Mi)": 155.52
   },
   {
     "UF": "CE",
@@ -1383,8 +1383,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 25.83,
     "Sub_Admin_Geral (R$ Mi)": 3951.33,
     "Sub_Demais (R$ Mi)": 330.41,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 770.15,
+    "DETRAN_Proxy (R$ Mi)": 415.45
   },
   {
     "UF": "CE",
@@ -1425,8 +1425,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 457.94,
     "Sub_Demais (R$ Mi)": 128.79,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 23.71,
+    "DETRAN_Proxy (R$ Mi)": 316.02
   },
   {
     "UF": "DF",
@@ -1446,8 +1446,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 490.27,
     "Sub_Demais (R$ Mi)": 158.72,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 27.77,
+    "DETRAN_Proxy (R$ Mi)": 370.14
   },
   {
     "UF": "DF",
@@ -1467,8 +1467,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 534.77,
     "Sub_Demais (R$ Mi)": 154.16,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 29.22,
+    "DETRAN_Proxy (R$ Mi)": 389.44
   },
   {
     "UF": "DF",
@@ -1488,8 +1488,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 540.84,
     "Sub_Demais (R$ Mi)": 112.75,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 30.92,
+    "DETRAN_Proxy (R$ Mi)": 412.19
   },
   {
     "UF": "DF",
@@ -1509,8 +1509,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 581.87,
     "Sub_Demais (R$ Mi)": 127.96,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 32.34,
+    "DETRAN_Proxy (R$ Mi)": 431.11
   },
   {
     "UF": "DF",
@@ -1530,8 +1530,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 603.66,
     "Sub_Demais (R$ Mi)": 190.13,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 37.14,
+    "DETRAN_Proxy (R$ Mi)": 469.43
   },
   {
     "UF": "DF",
@@ -1552,7 +1552,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 593.76,
     "Sub_Demais (R$ Mi)": 197.18,
     "Inativos_Militares (R$ Mi)": 34.34,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 477.61
   },
   {
     "UF": "DF",
@@ -1573,7 +1573,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 708.32,
     "Sub_Demais (R$ Mi)": 239.7,
     "Inativos_Militares (R$ Mi)": 39.71,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 536.1
   },
   {
     "UF": "DF",
@@ -1594,7 +1594,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 751.39,
     "Sub_Demais (R$ Mi)": 303.38,
     "Inativos_Militares (R$ Mi)": 45.09,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 593.97
   },
   {
     "UF": "DF",
@@ -1615,7 +1615,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 890.0,
     "Sub_Demais (R$ Mi)": 337.38,
     "Inativos_Militares (R$ Mi)": 52.59,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 649.43
   },
   {
     "UF": "DF",
@@ -1656,8 +1656,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.44,
     "Sub_Admin_Geral (R$ Mi)": 1144.9,
     "Sub_Demais (R$ Mi)": 24.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 644.72,
+    "DETRAN_Proxy (R$ Mi)": 31.37
   },
   {
     "UF": "ES",
@@ -1677,8 +1677,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1175.01,
     "Sub_Demais (R$ Mi)": 54.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 674.76,
+    "DETRAN_Proxy (R$ Mi)": 32.83
   },
   {
     "UF": "ES",
@@ -1698,8 +1698,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1161.41,
     "Sub_Demais (R$ Mi)": 77.67,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 684.84,
+    "DETRAN_Proxy (R$ Mi)": 33.32
   },
   {
     "UF": "ES",
@@ -1719,8 +1719,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1219.94,
     "Sub_Demais (R$ Mi)": 59.43,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 718.49,
+    "DETRAN_Proxy (R$ Mi)": 34.96
   },
   {
     "UF": "ES",
@@ -1740,8 +1740,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1202.03,
     "Sub_Demais (R$ Mi)": 59.75,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 693.99,
+    "DETRAN_Proxy (R$ Mi)": 33.77
   },
   {
     "UF": "ES",
@@ -1761,8 +1761,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1171.42,
     "Sub_Demais (R$ Mi)": 49.12,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 680.45,
+    "DETRAN_Proxy (R$ Mi)": 37.92
   },
   {
     "UF": "ES",
@@ -1782,8 +1782,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1236.04,
     "Sub_Demais (R$ Mi)": 77.56,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 847.41,
+    "DETRAN_Proxy (R$ Mi)": 36.88
   },
   {
     "UF": "ES",
@@ -1803,8 +1803,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1487.67,
     "Sub_Demais (R$ Mi)": 157.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1020.18,
+    "DETRAN_Proxy (R$ Mi)": 48.21
   },
   {
     "UF": "ES",
@@ -1824,8 +1824,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1670.33,
     "Sub_Demais (R$ Mi)": 125.37,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1169.22,
+    "DETRAN_Proxy (R$ Mi)": 51.96
   },
   {
     "UF": "ES",
@@ -1845,8 +1845,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1911.86,
     "Sub_Demais (R$ Mi)": 135.06,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1320.37,
+    "DETRAN_Proxy (R$ Mi)": 56.53
   },
   {
     "UF": "ES",
@@ -1887,8 +1887,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.4,
     "Sub_Admin_Geral (R$ Mi)": 1855.43,
     "Sub_Demais (R$ Mi)": 149.37,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1252.83,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -1908,8 +1908,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.21,
     "Sub_Admin_Geral (R$ Mi)": 2020.49,
     "Sub_Demais (R$ Mi)": 72.95,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1271.51,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -1929,8 +1929,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.96,
     "Sub_Admin_Geral (R$ Mi)": 2291.67,
     "Sub_Demais (R$ Mi)": 57.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1426.8,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -1950,8 +1950,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.37,
     "Sub_Admin_Geral (R$ Mi)": 2257.04,
     "Sub_Demais (R$ Mi)": 70.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1446.77,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -1971,8 +1971,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 2988.55,
     "Sub_Demais (R$ Mi)": 49.22,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1877.67,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -1992,8 +1992,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.04,
     "Sub_Admin_Geral (R$ Mi)": 2637.02,
     "Sub_Demais (R$ Mi)": 0.68,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1496.08,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -2013,8 +2013,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.65,
     "Sub_Admin_Geral (R$ Mi)": 2683.71,
     "Sub_Demais (R$ Mi)": 1.79,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1634.66,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -2034,8 +2034,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.57,
     "Sub_Admin_Geral (R$ Mi)": 2877.71,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1914.44,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "GO",
@@ -2055,8 +2055,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.93,
     "Sub_Admin_Geral (R$ Mi)": 3453.29,
     "Sub_Demais (R$ Mi)": 106.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2013.62,
+    "DETRAN_Proxy (R$ Mi)": 11.62
   },
   {
     "UF": "GO",
@@ -2076,8 +2076,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 13.46,
     "Sub_Admin_Geral (R$ Mi)": 3770.1,
     "Sub_Demais (R$ Mi)": 184.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2154.2,
+    "DETRAN_Proxy (R$ Mi)": 3.18
   },
   {
     "UF": "GO",
@@ -2118,8 +2118,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 937.18,
     "Sub_Demais (R$ Mi)": 72.65,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 229.92,
+    "DETRAN_Proxy (R$ Mi)": 23.08
   },
   {
     "UF": "MA",
@@ -2139,8 +2139,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1122.02,
     "Sub_Demais (R$ Mi)": 36.48,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 277.73,
+    "DETRAN_Proxy (R$ Mi)": 27.88
   },
   {
     "UF": "MA",
@@ -2160,8 +2160,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1265.8,
     "Sub_Demais (R$ Mi)": 45.78,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 317.53,
+    "DETRAN_Proxy (R$ Mi)": 31.88
   },
   {
     "UF": "MA",
@@ -2181,8 +2181,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1443.97,
     "Sub_Demais (R$ Mi)": 40.82,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 370.48,
+    "DETRAN_Proxy (R$ Mi)": 37.19
   },
   {
     "UF": "MA",
@@ -2202,8 +2202,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1546.73,
     "Sub_Demais (R$ Mi)": 26.48,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 389.9,
+    "DETRAN_Proxy (R$ Mi)": 39.14
   },
   {
     "UF": "MA",
@@ -2223,8 +2223,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1754.41,
     "Sub_Demais (R$ Mi)": 117.06,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 269.56,
+    "DETRAN_Proxy (R$ Mi)": 32.76
   },
   {
     "UF": "MA",
@@ -2244,8 +2244,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1761.5,
     "Sub_Demais (R$ Mi)": 31.35,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 432.85,
+    "DETRAN_Proxy (R$ Mi)": 39.26
   },
   {
     "UF": "MA",
@@ -2265,8 +2265,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1894.14,
     "Sub_Demais (R$ Mi)": 40.35,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 492.08,
+    "DETRAN_Proxy (R$ Mi)": 47.72
   },
   {
     "UF": "MA",
@@ -2286,8 +2286,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1929.38,
     "Sub_Demais (R$ Mi)": 44.04,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 225.02,
+    "DETRAN_Proxy (R$ Mi)": 49.3
   },
   {
     "UF": "MA",
@@ -2307,8 +2307,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 2001.09,
     "Sub_Demais (R$ Mi)": 67.32,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 747.49,
+    "DETRAN_Proxy (R$ Mi)": 54.39
   },
   {
     "UF": "MA",
@@ -2349,8 +2349,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 108.53,
     "Sub_Admin_Geral (R$ Mi)": 6051.89,
     "Sub_Demais (R$ Mi)": 6342.27,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6865.76,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2370,8 +2370,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 41.35,
     "Sub_Admin_Geral (R$ Mi)": 6256.45,
     "Sub_Demais (R$ Mi)": 6992.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7234.91,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2391,8 +2391,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 36.49,
     "Sub_Admin_Geral (R$ Mi)": 6244.6,
     "Sub_Demais (R$ Mi)": 7416.29,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7548.84,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2412,8 +2412,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 35.36,
     "Sub_Admin_Geral (R$ Mi)": 6249.37,
     "Sub_Demais (R$ Mi)": 7673.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7664.62,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2433,8 +2433,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 8.45,
     "Sub_Admin_Geral (R$ Mi)": 6121.19,
     "Sub_Demais (R$ Mi)": 7951.78,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7728.37,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2454,8 +2454,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 17.72,
     "Sub_Admin_Geral (R$ Mi)": 416.78,
     "Sub_Demais (R$ Mi)": 8479.8,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 8123.22,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2475,8 +2475,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 21.58,
     "Sub_Admin_Geral (R$ Mi)": 427.14,
     "Sub_Demais (R$ Mi)": 9097.74,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 8555.14,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2496,8 +2496,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 36.72,
     "Sub_Admin_Geral (R$ Mi)": 538.67,
     "Sub_Demais (R$ Mi)": 10776.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9931.99,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2517,8 +2517,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 20.01,
     "Sub_Admin_Geral (R$ Mi)": 511.47,
     "Sub_Demais (R$ Mi)": 11320.2,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 10183.42,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2538,8 +2538,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 25.06,
     "Sub_Admin_Geral (R$ Mi)": 584.42,
     "Sub_Demais (R$ Mi)": 11681.66,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 10760.73,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "MG",
@@ -2580,8 +2580,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 0.04,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 219.47,
+    "DETRAN_Proxy (R$ Mi)": 53.52
   },
   {
     "UF": "MS",
@@ -2601,8 +2601,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 251.98,
+    "DETRAN_Proxy (R$ Mi)": 61.45
   },
   {
     "UF": "MS",
@@ -2622,8 +2622,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 256.46,
+    "DETRAN_Proxy (R$ Mi)": 62.54
   },
   {
     "UF": "MS",
@@ -2643,8 +2643,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 231.74,
+    "DETRAN_Proxy (R$ Mi)": 56.51
   },
   {
     "UF": "MS",
@@ -2664,8 +2664,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 248.83,
+    "DETRAN_Proxy (R$ Mi)": 60.68
   },
   {
     "UF": "MS",
@@ -2685,8 +2685,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1215.88,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 590.46,
+    "DETRAN_Proxy (R$ Mi)": 61.87
   },
   {
     "UF": "MS",
@@ -2706,8 +2706,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1360.74,
     "Sub_Demais (R$ Mi)": 0.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 115.15,
+    "DETRAN_Proxy (R$ Mi)": 74.99
   },
   {
     "UF": "MS",
@@ -2727,8 +2727,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1513.69,
     "Sub_Demais (R$ Mi)": 130.7,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 125.73,
+    "DETRAN_Proxy (R$ Mi)": 94.9
   },
   {
     "UF": "MS",
@@ -2748,8 +2748,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 773.27,
     "Sub_Demais (R$ Mi)": 224.8,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 142.23,
+    "DETRAN_Proxy (R$ Mi)": 110.96
   },
   {
     "UF": "MS",
@@ -2769,8 +2769,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 733.65,
     "Sub_Demais (R$ Mi)": 5.56,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 164.18,
+    "DETRAN_Proxy (R$ Mi)": 117.78
   },
   {
     "UF": "MS",
@@ -2811,8 +2811,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 4.39,
     "Sub_Admin_Geral (R$ Mi)": 1284.03,
     "Sub_Demais (R$ Mi)": 27.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 264.02,
+    "DETRAN_Proxy (R$ Mi)": 27.43
   },
   {
     "UF": "MT",
@@ -2832,8 +2832,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 5.54,
     "Sub_Admin_Geral (R$ Mi)": 1651.19,
     "Sub_Demais (R$ Mi)": 27.16,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 337.63,
+    "DETRAN_Proxy (R$ Mi)": 35.08
   },
   {
     "UF": "MT",
@@ -2853,8 +2853,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.28,
     "Sub_Admin_Geral (R$ Mi)": 1754.6,
     "Sub_Demais (R$ Mi)": 28.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 355.43,
+    "DETRAN_Proxy (R$ Mi)": 36.93
   },
   {
     "UF": "MT",
@@ -2874,8 +2874,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.41,
     "Sub_Admin_Geral (R$ Mi)": 1913.72,
     "Sub_Demais (R$ Mi)": 32.24,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 384.65,
+    "DETRAN_Proxy (R$ Mi)": 39.96
   },
   {
     "UF": "MT",
@@ -2895,8 +2895,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 7.52,
     "Sub_Admin_Geral (R$ Mi)": 2277.99,
     "Sub_Demais (R$ Mi)": 34.26,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 454.26,
+    "DETRAN_Proxy (R$ Mi)": 47.2
   },
   {
     "UF": "MT",
@@ -2916,8 +2916,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.14,
     "Sub_Admin_Geral (R$ Mi)": 2373.81,
     "Sub_Demais (R$ Mi)": 28.83,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 631.46,
+    "DETRAN_Proxy (R$ Mi)": 46.26
   },
   {
     "UF": "MT",
@@ -2937,8 +2937,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 20.44,
     "Sub_Admin_Geral (R$ Mi)": 2531.14,
     "Sub_Demais (R$ Mi)": 79.51,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 697.24,
+    "DETRAN_Proxy (R$ Mi)": 52.36
   },
   {
     "UF": "MT",
@@ -2958,8 +2958,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.74,
     "Sub_Admin_Geral (R$ Mi)": 2943.69,
     "Sub_Demais (R$ Mi)": 114.54,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 213.87,
+    "DETRAN_Proxy (R$ Mi)": 70.96
   },
   {
     "UF": "MT",
@@ -2979,8 +2979,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.36,
     "Sub_Admin_Geral (R$ Mi)": 3320.01,
     "Sub_Demais (R$ Mi)": 54.4,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 834.11,
+    "DETRAN_Proxy (R$ Mi)": 86.44
   },
   {
     "UF": "MT",
@@ -3000,8 +3000,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 14.38,
     "Sub_Admin_Geral (R$ Mi)": 3511.12,
     "Sub_Demais (R$ Mi)": 81.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 862.39,
+    "DETRAN_Proxy (R$ Mi)": 101.45
   },
   {
     "UF": "MT",
@@ -3042,8 +3042,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 39.11,
     "Sub_Admin_Geral (R$ Mi)": 1664.52,
     "Sub_Demais (R$ Mi)": 247.19,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 919.75,
+    "DETRAN_Proxy (R$ Mi)": 23.72
   },
   {
     "UF": "PA",
@@ -3063,8 +3063,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.57,
     "Sub_Admin_Geral (R$ Mi)": 1734.43,
     "Sub_Demais (R$ Mi)": 318.27,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 961.15,
+    "DETRAN_Proxy (R$ Mi)": 24.78
   },
   {
     "UF": "PA",
@@ -3084,8 +3084,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 5.35,
     "Sub_Admin_Geral (R$ Mi)": 1746.02,
     "Sub_Demais (R$ Mi)": 406.41,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1005.78,
+    "DETRAN_Proxy (R$ Mi)": 25.94
   },
   {
     "UF": "PA",
@@ -3105,8 +3105,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.0,
     "Sub_Admin_Geral (R$ Mi)": 1960.96,
     "Sub_Demais (R$ Mi)": 539.6,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1173.6,
+    "DETRAN_Proxy (R$ Mi)": 30.26
   },
   {
     "UF": "PA",
@@ -3126,8 +3126,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 8.08,
     "Sub_Admin_Geral (R$ Mi)": 2127.02,
     "Sub_Demais (R$ Mi)": 534.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1225.93,
+    "DETRAN_Proxy (R$ Mi)": 31.61
   },
   {
     "UF": "PA",
@@ -3147,8 +3147,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 18.47,
     "Sub_Admin_Geral (R$ Mi)": 2189.22,
     "Sub_Demais (R$ Mi)": 541.58,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1278.4,
+    "DETRAN_Proxy (R$ Mi)": 33.15
   },
   {
     "UF": "PA",
@@ -3168,8 +3168,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 23.38,
     "Sub_Admin_Geral (R$ Mi)": 2328.03,
     "Sub_Demais (R$ Mi)": 625.37,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1442.67,
+    "DETRAN_Proxy (R$ Mi)": 34.43
   },
   {
     "UF": "PA",
@@ -3189,8 +3189,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 29.09,
     "Sub_Admin_Geral (R$ Mi)": 2775.9,
     "Sub_Demais (R$ Mi)": 912.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1699.23,
+    "DETRAN_Proxy (R$ Mi)": 47.05
   },
   {
     "UF": "PA",
@@ -3210,8 +3210,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 41.8,
     "Sub_Admin_Geral (R$ Mi)": 3201.93,
     "Sub_Demais (R$ Mi)": 992.36,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2011.7,
+    "DETRAN_Proxy (R$ Mi)": 38.74
   },
   {
     "UF": "PA",
@@ -3231,8 +3231,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 54.25,
     "Sub_Admin_Geral (R$ Mi)": 3386.11,
     "Sub_Demais (R$ Mi)": 1324.08,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2207.63,
+    "DETRAN_Proxy (R$ Mi)": 44.37
   },
   {
     "UF": "PA",
@@ -3273,8 +3273,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.34,
     "Sub_Admin_Geral (R$ Mi)": 878.19,
     "Sub_Demais (R$ Mi)": 18.88,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 207.04,
+    "DETRAN_Proxy (R$ Mi)": 34.96
   },
   {
     "UF": "PB",
@@ -3294,8 +3294,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.2,
     "Sub_Admin_Geral (R$ Mi)": 1034.8,
     "Sub_Demais (R$ Mi)": 39.73,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 246.19,
+    "DETRAN_Proxy (R$ Mi)": 41.57
   },
   {
     "UF": "PB",
@@ -3315,8 +3315,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.2,
     "Sub_Admin_Geral (R$ Mi)": 1097.39,
     "Sub_Demais (R$ Mi)": 44.91,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 262.23,
+    "DETRAN_Proxy (R$ Mi)": 44.28
   },
   {
     "UF": "PB",
@@ -3336,8 +3336,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.16,
     "Sub_Admin_Geral (R$ Mi)": 1196.56,
     "Sub_Demais (R$ Mi)": 56.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 287.47,
+    "DETRAN_Proxy (R$ Mi)": 48.54
   },
   {
     "UF": "PB",
@@ -3357,8 +3357,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.19,
     "Sub_Admin_Geral (R$ Mi)": 1250.91,
     "Sub_Demais (R$ Mi)": 65.69,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 302.69,
+    "DETRAN_Proxy (R$ Mi)": 51.11
   },
   {
     "UF": "PB",
@@ -3378,8 +3378,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.03,
     "Sub_Admin_Geral (R$ Mi)": 1339.89,
     "Sub_Demais (R$ Mi)": 47.69,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 381.37,
+    "DETRAN_Proxy (R$ Mi)": 48.12
   },
   {
     "UF": "PB",
@@ -3399,8 +3399,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.19,
     "Sub_Admin_Geral (R$ Mi)": 1365.45,
     "Sub_Demais (R$ Mi)": 52.38,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 171.96,
+    "DETRAN_Proxy (R$ Mi)": 49.7
   },
   {
     "UF": "PB",
@@ -3420,8 +3420,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.49,
     "Sub_Admin_Geral (R$ Mi)": 1646.93,
     "Sub_Demais (R$ Mi)": 78.24,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 509.34,
+    "DETRAN_Proxy (R$ Mi)": 81.12
   },
   {
     "UF": "PB",
@@ -3441,8 +3441,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.33,
     "Sub_Admin_Geral (R$ Mi)": 1735.93,
     "Sub_Demais (R$ Mi)": 97.49,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 559.35,
+    "DETRAN_Proxy (R$ Mi)": 63.25
   },
   {
     "UF": "PB",
@@ -3462,8 +3462,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.45,
     "Sub_Admin_Geral (R$ Mi)": 1943.19,
     "Sub_Demais (R$ Mi)": 82.29,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 661.26,
+    "DETRAN_Proxy (R$ Mi)": 66.87
   },
   {
     "UF": "PB",
@@ -3504,8 +3504,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.99,
     "Sub_Admin_Geral (R$ Mi)": 70.77,
     "Sub_Demais (R$ Mi)": 102.94,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1419.35,
+    "DETRAN_Proxy (R$ Mi)": 112.56
   },
   {
     "UF": "PE",
@@ -3525,8 +3525,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.65,
     "Sub_Admin_Geral (R$ Mi)": 70.04,
     "Sub_Demais (R$ Mi)": 215.55,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1539.82,
+    "DETRAN_Proxy (R$ Mi)": 122.11
   },
   {
     "UF": "PE",
@@ -3546,8 +3546,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.33,
     "Sub_Admin_Geral (R$ Mi)": 115.21,
     "Sub_Demais (R$ Mi)": 201.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1682.96,
+    "DETRAN_Proxy (R$ Mi)": 133.46
   },
   {
     "UF": "PE",
@@ -3567,8 +3567,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.5,
     "Sub_Admin_Geral (R$ Mi)": 71.73,
     "Sub_Demais (R$ Mi)": 123.52,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1846.14,
+    "DETRAN_Proxy (R$ Mi)": 146.4
   },
   {
     "UF": "PE",
@@ -3588,8 +3588,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.49,
     "Sub_Admin_Geral (R$ Mi)": 76.6,
     "Sub_Demais (R$ Mi)": 108.26,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1924.02,
+    "DETRAN_Proxy (R$ Mi)": 152.58
   },
   {
     "UF": "PE",
@@ -3609,8 +3609,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.88,
     "Sub_Admin_Geral (R$ Mi)": 79.19,
     "Sub_Demais (R$ Mi)": 100.5,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1826.32,
+    "DETRAN_Proxy (R$ Mi)": 140.11
   },
   {
     "UF": "PE",
@@ -3630,8 +3630,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.92,
     "Sub_Admin_Geral (R$ Mi)": 84.35,
     "Sub_Demais (R$ Mi)": 101.59,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1960.35,
+    "DETRAN_Proxy (R$ Mi)": 164.47
   },
   {
     "UF": "PE",
@@ -3651,8 +3651,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.38,
     "Sub_Admin_Geral (R$ Mi)": 89.57,
     "Sub_Demais (R$ Mi)": 143.52,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2264.7,
+    "DETRAN_Proxy (R$ Mi)": 174.67
   },
   {
     "UF": "PE",
@@ -3672,8 +3672,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.9,
     "Sub_Admin_Geral (R$ Mi)": 92.33,
     "Sub_Demais (R$ Mi)": 131.13,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2441.8,
+    "DETRAN_Proxy (R$ Mi)": 177.61
   },
   {
     "UF": "PE",
@@ -3693,8 +3693,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.96,
     "Sub_Admin_Geral (R$ Mi)": 259.95,
     "Sub_Demais (R$ Mi)": 4.25,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2525.29,
+    "DETRAN_Proxy (R$ Mi)": 223.41
   },
   {
     "UF": "PE",
@@ -3735,8 +3735,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 181.01,
     "Sub_Demais (R$ Mi)": 1.88,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 398.51,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3756,8 +3756,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 609.09,
     "Sub_Demais (R$ Mi)": 1.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1226.99,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3777,8 +3777,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 634.68,
     "Sub_Demais (R$ Mi)": 1.65,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1248.75,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3798,8 +3798,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 631.8,
     "Sub_Demais (R$ Mi)": 1.71,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1291.01,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3819,8 +3819,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 780.64,
     "Sub_Demais (R$ Mi)": 0.8,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1502.35,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3840,8 +3840,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 680.36,
     "Sub_Demais (R$ Mi)": 1.17,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1291.29,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3861,8 +3861,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 705.33,
     "Sub_Demais (R$ Mi)": 2.14,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1508.39,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3882,8 +3882,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 794.2,
     "Sub_Demais (R$ Mi)": 74.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1687.28,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3903,8 +3903,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 927.03,
     "Sub_Demais (R$ Mi)": 78.91,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 972.9,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "PI",
@@ -3924,8 +3924,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 4.93,
     "Sub_Admin_Geral (R$ Mi)": 1270.61,
     "Sub_Demais (R$ Mi)": 85.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 258.52,
+    "DETRAN_Proxy (R$ Mi)": 173.85
   },
   {
     "UF": "PI",
@@ -3966,8 +3966,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 70.76,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 504.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1701.07,
+    "DETRAN_Proxy (R$ Mi)": 107.34
   },
   {
     "UF": "PR",
@@ -3987,8 +3987,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 78.43,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 580.15,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1942.03,
+    "DETRAN_Proxy (R$ Mi)": 122.55
   },
   {
     "UF": "PR",
@@ -4008,8 +4008,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 81.45,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 617.84,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2129.01,
+    "DETRAN_Proxy (R$ Mi)": 134.35
   },
   {
     "UF": "PR",
@@ -4029,8 +4029,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 72.77,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 592.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1902.36,
+    "DETRAN_Proxy (R$ Mi)": 120.05
   },
   {
     "UF": "PR",
@@ -4050,8 +4050,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 76.41,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 579.72,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1830.71,
+    "DETRAN_Proxy (R$ Mi)": 115.53
   },
   {
     "UF": "PR",
@@ -4071,8 +4071,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 616.8,
     "Sub_Admin_Geral (R$ Mi)": 192.81,
     "Sub_Demais (R$ Mi)": 574.26,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1860.01,
+    "DETRAN_Proxy (R$ Mi)": 123.09
   },
   {
     "UF": "PR",
@@ -4092,8 +4092,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 603.48,
     "Sub_Admin_Geral (R$ Mi)": 186.16,
     "Sub_Demais (R$ Mi)": 618.53,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1906.21,
+    "DETRAN_Proxy (R$ Mi)": 116.34
   },
   {
     "UF": "PR",
@@ -4113,8 +4113,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 728.5,
     "Sub_Admin_Geral (R$ Mi)": 242.44,
     "Sub_Demais (R$ Mi)": 911.24,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2132.38,
+    "DETRAN_Proxy (R$ Mi)": 132.15
   },
   {
     "UF": "PR",
@@ -4134,8 +4134,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 893.33,
     "Sub_Admin_Geral (R$ Mi)": 269.61,
     "Sub_Demais (R$ Mi)": 1232.79,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2295.82,
+    "DETRAN_Proxy (R$ Mi)": 167.01
   },
   {
     "UF": "PR",
@@ -4155,8 +4155,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1045.82,
     "Sub_Admin_Geral (R$ Mi)": 365.14,
     "Sub_Demais (R$ Mi)": 1292.71,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2465.11,
+    "DETRAN_Proxy (R$ Mi)": 206.91
   },
   {
     "UF": "PR",
@@ -4197,8 +4197,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.02,
     "Sub_Admin_Geral (R$ Mi)": 7537.65,
     "Sub_Demais (R$ Mi)": 742.15,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5418.68,
+    "DETRAN_Proxy (R$ Mi)": 335.75
   },
   {
     "UF": "RJ",
@@ -4218,8 +4218,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 7680.96,
     "Sub_Demais (R$ Mi)": 839.27,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5749.74,
+    "DETRAN_Proxy (R$ Mi)": 356.26
   },
   {
     "UF": "RJ",
@@ -4239,8 +4239,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 7481.45,
     "Sub_Demais (R$ Mi)": 826.38,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5371.4,
+    "DETRAN_Proxy (R$ Mi)": 332.82
   },
   {
     "UF": "RJ",
@@ -4260,8 +4260,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 8083.06,
     "Sub_Demais (R$ Mi)": 1038.47,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5942.47,
+    "DETRAN_Proxy (R$ Mi)": 368.2
   },
   {
     "UF": "RJ",
@@ -4281,8 +4281,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 8014.85,
     "Sub_Demais (R$ Mi)": 801.41,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6063.47,
+    "DETRAN_Proxy (R$ Mi)": 375.7
   },
   {
     "UF": "RJ",
@@ -4302,8 +4302,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 8555.66,
     "Sub_Demais (R$ Mi)": 364.63,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6238.75,
+    "DETRAN_Proxy (R$ Mi)": 241.31
   },
   {
     "UF": "RJ",
@@ -4323,8 +4323,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 23.41,
     "Sub_Admin_Geral (R$ Mi)": 8766.14,
     "Sub_Demais (R$ Mi)": 657.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 6462.29,
+    "DETRAN_Proxy (R$ Mi)": 253.85
   },
   {
     "UF": "RJ",
@@ -4344,8 +4344,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 3.3,
     "Sub_Admin_Geral (R$ Mi)": 12291.39,
     "Sub_Demais (R$ Mi)": 740.48,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7581.95,
+    "DETRAN_Proxy (R$ Mi)": 886.71
   },
   {
     "UF": "RJ",
@@ -4365,8 +4365,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.95,
     "Sub_Admin_Geral (R$ Mi)": 13491.15,
     "Sub_Demais (R$ Mi)": 929.73,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 8118.34,
+    "DETRAN_Proxy (R$ Mi)": 1062.97
   },
   {
     "UF": "RJ",
@@ -4386,8 +4386,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 14.33,
     "Sub_Admin_Geral (R$ Mi)": 14110.15,
     "Sub_Demais (R$ Mi)": 1032.07,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 8559.47,
+    "DETRAN_Proxy (R$ Mi)": 707.6
   },
   {
     "UF": "RJ",
@@ -4428,8 +4428,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 278.91,
     "Sub_Demais (R$ Mi)": 8.44,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 400.06,
+    "DETRAN_Proxy (R$ Mi)": 78.19
   },
   {
     "UF": "RN",
@@ -4449,8 +4449,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 363.63,
     "Sub_Demais (R$ Mi)": 16.8,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 445.98,
+    "DETRAN_Proxy (R$ Mi)": 87.17
   },
   {
     "UF": "RN",
@@ -4470,8 +4470,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 348.93,
     "Sub_Demais (R$ Mi)": 11.01,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 432.59,
+    "DETRAN_Proxy (R$ Mi)": 84.55
   },
   {
     "UF": "RN",
@@ -4491,8 +4491,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 391.23,
     "Sub_Demais (R$ Mi)": 9.4,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 484.37,
+    "DETRAN_Proxy (R$ Mi)": 94.67
   },
   {
     "UF": "RN",
@@ -4512,8 +4512,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 422.75,
     "Sub_Demais (R$ Mi)": 15.38,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 549.4,
+    "DETRAN_Proxy (R$ Mi)": 107.39
   },
   {
     "UF": "RN",
@@ -4533,8 +4533,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 973.19,
     "Sub_Demais (R$ Mi)": 1.12,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 496.39,
+    "DETRAN_Proxy (R$ Mi)": 104.15
   },
   {
     "UF": "RN",
@@ -4554,8 +4554,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1131.21,
     "Sub_Demais (R$ Mi)": 2.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 666.72,
+    "DETRAN_Proxy (R$ Mi)": 112.13
   },
   {
     "UF": "RN",
@@ -4575,8 +4575,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.84,
     "Sub_Admin_Geral (R$ Mi)": 1261.2,
     "Sub_Demais (R$ Mi)": 2.92,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 626.49,
+    "DETRAN_Proxy (R$ Mi)": 133.72
   },
   {
     "UF": "RN",
@@ -4596,8 +4596,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.01,
     "Sub_Admin_Geral (R$ Mi)": 1440.54,
     "Sub_Demais (R$ Mi)": 784.74,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 778.35,
+    "DETRAN_Proxy (R$ Mi)": 139.06
   },
   {
     "UF": "RN",
@@ -4617,8 +4617,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1506.78,
     "Sub_Demais (R$ Mi)": 758.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 755.05,
+    "DETRAN_Proxy (R$ Mi)": 146.24
   },
   {
     "UF": "RN",
@@ -4659,8 +4659,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 222.9,
     "Sub_Demais (R$ Mi)": 32.28,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 155.57,
+    "DETRAN_Proxy (R$ Mi)": 127.37
   },
   {
     "UF": "RO",
@@ -4680,8 +4680,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 37.6,
     "Sub_Demais (R$ Mi)": 0.93,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 123.51,
+    "DETRAN_Proxy (R$ Mi)": 101.13
   },
   {
     "UF": "RO",
@@ -4701,8 +4701,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 56.65,
     "Sub_Demais (R$ Mi)": 0.22,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 133.09,
+    "DETRAN_Proxy (R$ Mi)": 108.97
   },
   {
     "UF": "RO",
@@ -4722,8 +4722,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 52.85,
     "Sub_Demais (R$ Mi)": 0.31,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 139.19,
+    "DETRAN_Proxy (R$ Mi)": 113.96
   },
   {
     "UF": "RO",
@@ -4743,8 +4743,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 39.39,
     "Sub_Demais (R$ Mi)": 0.06,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 138.93,
+    "DETRAN_Proxy (R$ Mi)": 113.75
   },
   {
     "UF": "RO",
@@ -4764,8 +4764,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 253.32,
     "Sub_Admin_Geral (R$ Mi)": 24.3,
     "Sub_Demais (R$ Mi)": 175.7,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 164.3,
+    "DETRAN_Proxy (R$ Mi)": 143.06
   },
   {
     "UF": "RO",
@@ -4785,8 +4785,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 245.41,
     "Sub_Admin_Geral (R$ Mi)": 60.91,
     "Sub_Demais (R$ Mi)": 191.43,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 190.42,
+    "DETRAN_Proxy (R$ Mi)": 151.42
   },
   {
     "UF": "RO",
@@ -4806,8 +4806,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 287.08,
     "Sub_Admin_Geral (R$ Mi)": 217.45,
     "Sub_Demais (R$ Mi)": 238.49,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 237.23,
+    "DETRAN_Proxy (R$ Mi)": 187.6
   },
   {
     "UF": "RO",
@@ -4827,8 +4827,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 283.68,
     "Sub_Admin_Geral (R$ Mi)": 257.87,
     "Sub_Demais (R$ Mi)": 259.97,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 179.45,
+    "DETRAN_Proxy (R$ Mi)": 172.92
   },
   {
     "UF": "RO",
@@ -4848,8 +4848,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 314.16,
     "Sub_Admin_Geral (R$ Mi)": 208.05,
     "Sub_Demais (R$ Mi)": 357.43,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 318.4,
+    "DETRAN_Proxy (R$ Mi)": 209.12
   },
   {
     "UF": "RO",
@@ -4890,8 +4890,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 8.8,
     "Sub_Admin_Geral (R$ Mi)": 267.85,
     "Sub_Demais (R$ Mi)": 2.83,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3.55,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -4911,8 +4911,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 7.64,
     "Sub_Admin_Geral (R$ Mi)": 310.62,
     "Sub_Demais (R$ Mi)": 3.15,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 4.1,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -4932,8 +4932,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.95,
     "Sub_Admin_Geral (R$ Mi)": 356.24,
     "Sub_Demais (R$ Mi)": 3.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 4.67,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -4953,8 +4953,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.88,
     "Sub_Admin_Geral (R$ Mi)": 343.12,
     "Sub_Demais (R$ Mi)": 2.86,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 4.36,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -4974,8 +4974,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 8.29,
     "Sub_Admin_Geral (R$ Mi)": 229.88,
     "Sub_Demais (R$ Mi)": 2.71,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3.05,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -4995,8 +4995,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 7.37,
     "Sub_Admin_Geral (R$ Mi)": 359.24,
     "Sub_Demais (R$ Mi)": 3.74,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3.72,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -5016,8 +5016,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 10.08,
     "Sub_Admin_Geral (R$ Mi)": 423.76,
     "Sub_Demais (R$ Mi)": 10.21,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5.32,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -5037,8 +5037,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 21.81,
     "Sub_Admin_Geral (R$ Mi)": 527.66,
     "Sub_Demais (R$ Mi)": 9.31,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9.14,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -5058,8 +5058,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 27.12,
     "Sub_Admin_Geral (R$ Mi)": 610.69,
     "Sub_Demais (R$ Mi)": 19.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 11.15,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -5079,8 +5079,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 29.57,
     "Sub_Admin_Geral (R$ Mi)": 688.39,
     "Sub_Demais (R$ Mi)": 6.84,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 12.6,
+    "DETRAN_Proxy (R$ Mi)": 0.0
   },
   {
     "UF": "RR",
@@ -5121,8 +5121,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 30.62,
     "Sub_Admin_Geral (R$ Mi)": 2630.19,
     "Sub_Demais (R$ Mi)": 134.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2961.52,
+    "DETRAN_Proxy (R$ Mi)": 73.53
   },
   {
     "UF": "RS",
@@ -5142,8 +5142,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 29.76,
     "Sub_Admin_Geral (R$ Mi)": 2839.89,
     "Sub_Demais (R$ Mi)": 197.65,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3230.8,
+    "DETRAN_Proxy (R$ Mi)": 80.21
   },
   {
     "UF": "RS",
@@ -5163,8 +5163,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 39.49,
     "Sub_Admin_Geral (R$ Mi)": 3229.21,
     "Sub_Demais (R$ Mi)": 189.51,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 3655.56,
+    "DETRAN_Proxy (R$ Mi)": 90.76
   },
   {
     "UF": "RS",
@@ -5184,8 +5184,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 37.4,
     "Sub_Admin_Geral (R$ Mi)": 74.48,
     "Sub_Demais (R$ Mi)": 807.85,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 4280.67,
+    "DETRAN_Proxy (R$ Mi)": 106.28
   },
   {
     "UF": "RS",
@@ -5205,8 +5205,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 29.75,
     "Sub_Admin_Geral (R$ Mi)": 76.17,
     "Sub_Demais (R$ Mi)": 900.44,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 4687.78,
+    "DETRAN_Proxy (R$ Mi)": 116.38
   },
   {
     "UF": "RS",
@@ -5226,8 +5226,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 22.19,
     "Sub_Admin_Geral (R$ Mi)": 1010.06,
     "Sub_Demais (R$ Mi)": 1057.25,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 5213.61,
+    "DETRAN_Proxy (R$ Mi)": 145.96
   },
   {
     "UF": "RS",
@@ -5248,7 +5248,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 1091.26,
     "Sub_Demais (R$ Mi)": 1166.41,
     "Inativos_Militares (R$ Mi)": 5432.35,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 140.77
   },
   {
     "UF": "RS",
@@ -5269,7 +5269,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 1196.38,
     "Sub_Demais (R$ Mi)": 1532.76,
     "Inativos_Militares (R$ Mi)": 6390.99,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 131.47
   },
   {
     "UF": "RS",
@@ -5290,7 +5290,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 2141.19,
     "Sub_Demais (R$ Mi)": 545.27,
     "Inativos_Militares (R$ Mi)": 6185.76,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 130.25
   },
   {
     "UF": "RS",
@@ -5311,7 +5311,7 @@ const ORCAMENTOS_DATA = [
     "Sub_Admin_Geral (R$ Mi)": 2207.1,
     "Sub_Demais (R$ Mi)": 413.77,
     "Inativos_Militares (R$ Mi)": 6184.39,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "DETRAN_Proxy (R$ Mi)": 127.37
   },
   {
     "UF": "RS",
@@ -5352,8 +5352,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1913.41,
     "Sub_Demais (R$ Mi)": 18.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1264.52,
+    "DETRAN_Proxy (R$ Mi)": 66.58
   },
   {
     "UF": "SC",
@@ -5373,8 +5373,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 2.93,
     "Sub_Admin_Geral (R$ Mi)": 1886.04,
     "Sub_Demais (R$ Mi)": 14.36,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1360.21,
+    "DETRAN_Proxy (R$ Mi)": 71.62
   },
   {
     "UF": "SC",
@@ -5394,8 +5394,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 4.61,
     "Sub_Admin_Geral (R$ Mi)": 1909.13,
     "Sub_Demais (R$ Mi)": 43.16,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1397.88,
+    "DETRAN_Proxy (R$ Mi)": 73.6
   },
   {
     "UF": "SC",
@@ -5415,8 +5415,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 5.95,
     "Sub_Admin_Geral (R$ Mi)": 1917.49,
     "Sub_Demais (R$ Mi)": 52.14,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1447.29,
+    "DETRAN_Proxy (R$ Mi)": 76.2
   },
   {
     "UF": "SC",
@@ -5436,8 +5436,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 5.68,
     "Sub_Admin_Geral (R$ Mi)": 0.0,
     "Sub_Demais (R$ Mi)": 1996.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1436.22,
+    "DETRAN_Proxy (R$ Mi)": 75.62
   },
   {
     "UF": "SC",
@@ -5457,8 +5457,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 42.56,
     "Sub_Admin_Geral (R$ Mi)": 2044.25,
     "Sub_Demais (R$ Mi)": 68.81,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1534.16,
+    "DETRAN_Proxy (R$ Mi)": 78.93
   },
   {
     "UF": "SC",
@@ -5478,8 +5478,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 60.91,
     "Sub_Admin_Geral (R$ Mi)": 2098.05,
     "Sub_Demais (R$ Mi)": 92.99,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1622.59,
+    "DETRAN_Proxy (R$ Mi)": 79.79
   },
   {
     "UF": "SC",
@@ -5499,8 +5499,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 84.38,
     "Sub_Admin_Geral (R$ Mi)": 2551.47,
     "Sub_Demais (R$ Mi)": 116.79,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 1936.55,
+    "DETRAN_Proxy (R$ Mi)": 111.65
   },
   {
     "UF": "SC",
@@ -5520,8 +5520,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 80.63,
     "Sub_Admin_Geral (R$ Mi)": 2691.75,
     "Sub_Demais (R$ Mi)": 106.59,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2084.76,
+    "DETRAN_Proxy (R$ Mi)": 152.75
   },
   {
     "UF": "SC",
@@ -5541,8 +5541,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 82.38,
     "Sub_Admin_Geral (R$ Mi)": 2830.47,
     "Sub_Demais (R$ Mi)": 95.71,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 2126.87,
+    "DETRAN_Proxy (R$ Mi)": 114.79
   },
   {
     "UF": "SC",
@@ -5583,8 +5583,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 290.16,
     "Sub_Demais (R$ Mi)": 29.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 322.3,
+    "DETRAN_Proxy (R$ Mi)": 19.67
   },
   {
     "UF": "SE",
@@ -5604,8 +5604,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 314.47,
     "Sub_Demais (R$ Mi)": 28.34,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 337.3,
+    "DETRAN_Proxy (R$ Mi)": 20.59
   },
   {
     "UF": "SE",
@@ -5625,8 +5625,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 335.28,
     "Sub_Demais (R$ Mi)": 29.52,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 347.57,
+    "DETRAN_Proxy (R$ Mi)": 21.22
   },
   {
     "UF": "SE",
@@ -5646,8 +5646,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 352.02,
     "Sub_Demais (R$ Mi)": 24.76,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 367.06,
+    "DETRAN_Proxy (R$ Mi)": 22.41
   },
   {
     "UF": "SE",
@@ -5667,8 +5667,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.1,
     "Sub_Admin_Geral (R$ Mi)": 349.54,
     "Sub_Demais (R$ Mi)": 24.98,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 393.93,
+    "DETRAN_Proxy (R$ Mi)": 24.05
   },
   {
     "UF": "SE",
@@ -5688,8 +5688,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1.1,
     "Sub_Admin_Geral (R$ Mi)": 348.54,
     "Sub_Demais (R$ Mi)": 26.57,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 466.49,
+    "DETRAN_Proxy (R$ Mi)": 21.65
   },
   {
     "UF": "SE",
@@ -5709,8 +5709,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 6.67,
     "Sub_Admin_Geral (R$ Mi)": 384.65,
     "Sub_Demais (R$ Mi)": 30.48,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 473.32,
+    "DETRAN_Proxy (R$ Mi)": 23.72
   },
   {
     "UF": "SE",
@@ -5730,8 +5730,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 454.84,
     "Sub_Demais (R$ Mi)": 40.29,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 539.42,
+    "DETRAN_Proxy (R$ Mi)": 46.17
   },
   {
     "UF": "SE",
@@ -5751,8 +5751,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 458.12,
     "Sub_Demais (R$ Mi)": 42.58,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 542.89,
+    "DETRAN_Proxy (R$ Mi)": 32.16
   },
   {
     "UF": "SE",
@@ -5772,8 +5772,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 4.32,
     "Sub_Admin_Geral (R$ Mi)": 668.24,
     "Sub_Demais (R$ Mi)": 176.02,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 569.39,
+    "DETRAN_Proxy (R$ Mi)": 34.08
   },
   {
     "UF": "SE",
@@ -5814,8 +5814,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 327.04,
     "Sub_Admin_Geral (R$ Mi)": 900.34,
     "Sub_Demais (R$ Mi)": 301.45,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9293.58,
+    "DETRAN_Proxy (R$ Mi)": 696.13
   },
   {
     "UF": "SP",
@@ -5835,8 +5835,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 291.2,
     "Sub_Admin_Geral (R$ Mi)": 825.32,
     "Sub_Demais (R$ Mi)": 330.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9072.58,
+    "DETRAN_Proxy (R$ Mi)": 679.57
   },
   {
     "UF": "SP",
@@ -5856,8 +5856,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 278.56,
     "Sub_Admin_Geral (R$ Mi)": 954.08,
     "Sub_Demais (R$ Mi)": 339.1,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9522.61,
+    "DETRAN_Proxy (R$ Mi)": 713.28
   },
   {
     "UF": "SP",
@@ -5877,8 +5877,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 242.85,
     "Sub_Admin_Geral (R$ Mi)": 942.18,
     "Sub_Demais (R$ Mi)": 382.14,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9400.45,
+    "DETRAN_Proxy (R$ Mi)": 704.13
   },
   {
     "UF": "SP",
@@ -5898,8 +5898,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 289.2,
     "Sub_Admin_Geral (R$ Mi)": 779.45,
     "Sub_Demais (R$ Mi)": 372.67,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 9794.25,
+    "DETRAN_Proxy (R$ Mi)": 733.63
   },
   {
     "UF": "SP",
@@ -5919,8 +5919,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 211.04,
     "Sub_Admin_Geral (R$ Mi)": 1023.17,
     "Sub_Demais (R$ Mi)": 283.23,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 12003.34,
+    "DETRAN_Proxy (R$ Mi)": 502.11
   },
   {
     "UF": "SP",
@@ -5940,8 +5940,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 189.94,
     "Sub_Admin_Geral (R$ Mi)": 1005.6,
     "Sub_Demais (R$ Mi)": 243.34,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 7864.82,
+    "DETRAN_Proxy (R$ Mi)": 1160.7
   },
   {
     "UF": "SP",
@@ -5961,8 +5961,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 305.99,
     "Sub_Admin_Geral (R$ Mi)": 1126.23,
     "Sub_Demais (R$ Mi)": 252.72,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 11622.73,
+    "DETRAN_Proxy (R$ Mi)": 714.78
   },
   {
     "UF": "SP",
@@ -5982,8 +5982,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 246.93,
     "Sub_Admin_Geral (R$ Mi)": 1244.09,
     "Sub_Demais (R$ Mi)": 244.44,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 13475.25,
+    "DETRAN_Proxy (R$ Mi)": 927.05
   },
   {
     "UF": "SP",
@@ -6003,8 +6003,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 1186.53,
     "Sub_Admin_Geral (R$ Mi)": 498.66,
     "Sub_Demais (R$ Mi)": 241.38,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 14664.19,
+    "DETRAN_Proxy (R$ Mi)": 461.72
   },
   {
     "UF": "SP",
@@ -6045,8 +6045,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.05,
     "Sub_Admin_Geral (R$ Mi)": 607.98,
     "Sub_Demais (R$ Mi)": 0.65,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 282.71,
+    "DETRAN_Proxy (R$ Mi)": 47.09
   },
   {
     "UF": "TO",
@@ -6066,8 +6066,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 478.54,
     "Sub_Demais (R$ Mi)": 230.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 327.13,
+    "DETRAN_Proxy (R$ Mi)": 54.49
   },
   {
     "UF": "TO",
@@ -6087,8 +6087,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 543.23,
     "Sub_Demais (R$ Mi)": 227.0,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 357.79,
+    "DETRAN_Proxy (R$ Mi)": 59.6
   },
   {
     "UF": "TO",
@@ -6108,8 +6108,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 541.96,
     "Sub_Demais (R$ Mi)": 295.01,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 390.2,
+    "DETRAN_Proxy (R$ Mi)": 65.0
   },
   {
     "UF": "TO",
@@ -6129,8 +6129,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 661.03,
     "Sub_Demais (R$ Mi)": 383.97,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 480.3,
+    "DETRAN_Proxy (R$ Mi)": 80.0
   },
   {
     "UF": "TO",
@@ -6150,8 +6150,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 983.91,
     "Sub_Demais (R$ Mi)": 60.09,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 419.34,
+    "DETRAN_Proxy (R$ Mi)": 66.65
   },
   {
     "UF": "TO",
@@ -6171,8 +6171,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 971.51,
     "Sub_Demais (R$ Mi)": 9.56,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 468.08,
+    "DETRAN_Proxy (R$ Mi)": 95.9
   },
   {
     "UF": "TO",
@@ -6192,8 +6192,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1048.68,
     "Sub_Demais (R$ Mi)": 7.07,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 545.98,
+    "DETRAN_Proxy (R$ Mi)": 74.72
   },
   {
     "UF": "TO",
@@ -6213,8 +6213,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.0,
     "Sub_Admin_Geral (R$ Mi)": 1189.01,
     "Sub_Demais (R$ Mi)": 11.24,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 296.78,
+    "DETRAN_Proxy (R$ Mi)": 78.99
   },
   {
     "UF": "TO",
@@ -6234,8 +6234,8 @@ const ORCAMENTOS_DATA = [
     "Sub_Inteligencia (R$ Mi)": 0.03,
     "Sub_Admin_Geral (R$ Mi)": 1324.99,
     "Sub_Demais (R$ Mi)": 19.61,
-    "Inativos_Militares (R$ Mi)": NaN,
-    "DETRAN_Proxy (R$ Mi)": NaN
+    "Inativos_Militares (R$ Mi)": 308.37,
+    "DETRAN_Proxy (R$ Mi)": 93.26
   },
   {
     "UF": "TO",
@@ -6260,7 +6260,6 @@ const ORCAMENTOS_DATA = [
   }
 ];
 
-// Dados de Salários Históricos (Remuneração Bruta Média Mensal, 2015-2026)
 const SALARIOS_DATA = [
   {
     "UF": "AC",
